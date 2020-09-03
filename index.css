@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    border:1px solid grey;
+    max-width: 100%;
+}
+
+html{
+    font-size:62.5;
+
+}
+
+body {
+	line-height: 1;
+}
+
+.mountainspic {
+    width: 25%;
+}
+
+.campfirepic {
+    width: 12%;
+}
+.learnp p {
+    color: white;
+    background: #DDB9A3;
+    }
+.rvpic {
+    width: 12%;
+}
+
+.footerbuttons {
+    background: #F9E7DC;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+}
