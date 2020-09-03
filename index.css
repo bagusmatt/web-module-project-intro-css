@@ -12,22 +12,102 @@ html{
 }
 
 body {
-	line-height: 1;
+	line-height: 1.5;
+}
+
+nav, h1, p {
+    text-align:center;
+}
+
+p a {
+    font: bold;
+}
+
+
+.planbutton {
+    border: 1px solid black;
+    background-color: #FF764E;
+    padding: 1% 1;
+    border-radius: 15px;
+    width: 15%;
+    font-size: 20px;
+    display: inline-block;
+    margin: 3% 5%;
+
+}
+
+.learnbutton {
+    border: 1px solid black;
+    background-color: #5ED3EB;
+    padding: 1%;
+    border-radius: 15px;
+    width: 15%;
+    font-size: 15px;
+    display: inline-block;
+    margin: 3% 5%;
+}
+
+.getbutton {
+    border: 1px solid black;
+    background-color: #FFCD69;
+    padding: 1%;
+    border-radius: 15px;
+    width: 15%;
+    display: inline-block;
+    margin: 3% 5%;
+}
+
+.learnp {
+    text-align: center;
+    width: 92%;
+    margin: 4%;
 }
 
 .mountainspic {
     width: 25%;
+    padding: 1%;
+    border-radius: 200px;
+    display: inline-block;
 }
 
-.campfirepic {
-    width: 12%;
+.opencontainer {
+    margin: auto;
 }
+
+.headercontainer {
+    display: inline-block;
+    width: 65%;
+    margin: 1%;
+}
+
 .learnp p {
     color: white;
     background: #DDB9A3;
     }
+
+    .campfirepic {
+        margin: auto;
+        width: 12%;
+    }
+.firegroup{
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+
 .rvpic {
+    margin: auto;
     width: 12%;
+}
+
+.rvgroup {
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+.footermountain {
+    width: 100%;
 }
 
 .footerbuttons {
@@ -53,7 +133,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-
 }
