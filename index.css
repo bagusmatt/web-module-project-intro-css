@@ -1,136 +1,137 @@
-*{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    border:1px solid grey;
-    max-width: 100%;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
 }
 
-html{
-    font-size:62.5;
-
+html {
+  font-size: 62.5;
 }
 
 body {
-	line-height: 1.5;
+  line-height: 1.5;
+  font-size: 1.6 rem
+  font-family: 'Roboto Mono', monospace;
 }
 
-nav, h1, p {
-    text-align:center;
+h1 {
+    font-family: 'Chelsea Market', cursive;
 }
 
-p a {
-    font: bold;
+nav,
+h1,
+p {
+  text-align: center;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+    margin: 1% auto;
+    padding: 4%;    
+
+}
+
+nav a {
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 5%;
+    margin: 4%;
+
+}
 
 .planbutton {
-    border: 1px solid black;
-    background-color: #FF764E;
-    padding: 1% 1;
-    border-radius: 15px;
-    width: 15%;
-    font-size: 20px;
-    display: inline-block;
-    margin: 3% 5%;
-
+  background-color: #ff764e;
 }
 
 .learnbutton {
-    border: 1px solid black;
-    background-color: #5ED3EB;
-    padding: 1%;
-    border-radius: 15px;
-    width: 15%;
-    font-size: 15px;
-    display: inline-block;
-    margin: 3% 5%;
+  background-color: #5ed3eb;
 }
 
 .getbutton {
-    border: 1px solid black;
-    background-color: #FFCD69;
-    padding: 1%;
-    border-radius: 15px;
-    width: 15%;
-    display: inline-block;
-    margin: 3% 5%;
-}
-
-.learnp {
-    text-align: center;
-    width: 92%;
-    margin: 4%;
+  background-color: #ffcd69;
 }
 
 .mountainspic {
-    width: 25%;
-    padding: 1%;
-    border-radius: 200px;
-    display: inline-block;
+  width: 25%;
+  padding: 2%;
+  display: inline-block;
+}
+
+.mountainspic img {
+    border-radius: 50%;
 }
 
 .opencontainer {
-    margin: auto;
+  display: inline-block;
+  margin: auto;
 }
 
 .headercontainer {
-    display: inline-block;
-    width: 65%;
-    margin: 1%;
+  display: inline-block;
+  width: 65%;
+  margin: 1%;
+}
+
+.learnp {
+  text-align: center;
+  width: 92%;
+  margin: 4%;
+  background: #ddb9a3;
 }
 
 .learnp p {
-    color: white;
-    background: #DDB9A3;
-    }
+  color: white;
+  margin: 1%;
 
-    .campfirepic {
-        margin: auto;
-        width: 12%;
-    }
-.firegroup{
-    font-size: 15px;
-    width: 50%;
-    margin: auto;
+}
+
+.campfirepic {
+  margin: auto;
+  width: 40%;
+}
+.firegroup {
+    font-size: .6rem;
+  width: 25%;
+  margin: auto;
 }
 
 .rvpic {
-    margin: auto;
-    width: 12%;
+  margin: auto;
+  width: 40%;
 }
 
 .rvgroup {
-    font-size: 15px;
-    width: 50%;
-    margin: auto;
+  font-size: .6rem;
+  width: 25%;
+  margin: 5% auto;
 }
 
 .footermountain {
-    width: 100%;
+  width: 100%;
 }
 
-.footerbuttons {
-    background: #F9E7DC;
+footer {
+  background: #f9e7dc;
 }
 
-a{
-    text-decoration: none;
-
+.footermountain {
+    max-height: 12rem;
+    overflow: hidden;
 }
 
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+a {
+  text-decoration: none;
 }
